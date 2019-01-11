@@ -1,0 +1,908 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\000031}}
+.swiper-container {
+  width: 100%;
+  max-height: 450px;
+  top: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\000035}}
+.swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000310}}
+.top-show {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  z-index: 4;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px #aaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000320}}
+.top-show .cooperation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000324}}
+.top-show .cooperation ul {
+  position: relative;
+  margin-bottom: 0;
+  width: 85%;
+  padding-left: 0;
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000334}}
+.top-show .cooperation ul li:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000337}}
+.top-show .cooperation ul .my-bullet {
+  width: 10%;
+  padding-bottom: 4%;
+  border-bottom: 4px solid #fff;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000337}}
+  .top-show .cooperation ul .my-bullet {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000345}}
+.top-show .cooperation ul .my-bullet b {
+  font-size: 1.4vw;
+  color: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000350}}
+.top-show .cooperation ul .my-bullet-active {
+  border-bottom: 4px solid #FF6347;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000352}}
+.top-show .cooperation ul .my-bullet-active b {
+  color: #FF6347;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000360}}
+article > div {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000360}}
+  article > div {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000365}}
+  article > div > div {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000370}}
+article .info {
+  margin-top: 100px;
+  display: flex;
+  background-color: #fff;
+  padding: 50px 0;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000370}}
+  article .info {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000378}}
+article .info > div {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000381}}
+article .info .left-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000381}}
+  article .info .left-info {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000388}}
+article .info .left-info .left-info-main {
+  padding: 0 50px;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000388}}
+  article .info .left-info .left-info-main {
+    padding: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000393}}
+article .info .left-info .left-info-main p {
+  font-size: 2vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000395}}
+article .info .left-info .left-info-main p:first-child {
+  font-size: 2.6vw;
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\0000399}}
+article .info .left-info .left-info-main p:nth-child(4) {
+  font-size: 1.2vw;
+  font-weight: 700;
+  margin-top: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003104}}
+article .info .left-info .left-info-main p:nth-child(5) {
+  font-size: 0.8vw;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003112}}
+article .info .left-info .left-info-main a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003114}}
+article .info .left-info .left-info-main a img {
+  width: 50px;
+}
+@media screen and (max-width: 1410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003114}}
+  article .info .left-info .left-info-main a img {
+    width: 30px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003119}}
+article .info .left-info .left-info-main a img:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003125}}
+article .info .left-info > img {
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003129}}
+  article .info .right-info {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003133}}
+article .info .right-info ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003138}}
+article .info .right-info ul li {
+  text-align: center;
+  color: grey;
+  margin-bottom: 1vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003142}}
+article .info .right-info ul li img {
+  width: 52px;
+  height: 46px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003142}}
+  article .info .right-info ul li img {
+    width: 32px;
+    height: 26px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003151}}
+article .info .right-info ul li p {
+  margin-bottom: 0;
+  font-size: 0.9vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003157}}
+article .info .right-info > div {
+  width: 100%;
+  height: auto;
+  margin-top: 70px;
+  position: relative;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003157}}
+  article .info .right-info > div {
+    margin-top: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003165}}
+article .info .right-info > div > img {
+  width: 100%;
+  max-height: 410px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003169}}
+article .info .right-info > div .mask {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  filter: Alpha(Opacity=60);
+  opacity: 0.6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003178}}
+article .info .right-info > div .maskInfo {
+  position: absolute;
+  width: 70%;
+  font-size: 2.6vw;
+  color: #fff;
+  right: 0;
+  bottom: -40px;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003186}}
+article .info .right-info > div .maskInfo p {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003190}}
+article .info .right-info > div .maskInfo div {
+  width: 100%;
+  height: 80px;
+  font-size: 1.8rem;
+  margin-top: 40px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003190}}
+  article .info .right-info > div .maskInfo div {
+    height: 50px;
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003203}}
+article .info .right-info > div .maskInfo div:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003206}}
+article .info .right-info > div .maskInfo div p {
+  margin: 0;
+  margin-right: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003210}}
+article .info .right-info > div .maskInfo div img {
+  width: 30px;
+  height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003219}}
+article .team {
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003219}}
+  article .team {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003231}}
+article .team .team-title {
+  width: 44%;
+  padding: 0 50px;
+  font-size: 3rem;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003231}}
+  article .team .team-title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003231}}
+  article .team .team-title {
+    padding: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003241}}
+article .team .team-title p:first-child {
+  font-size: 4rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003241}}
+  article .team .team-title p:first-child {
+    font-size: 3rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003248}}
+article .team .team-title p:nth-child(3) {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003248}}
+  article .team .team-title p:nth-child(3) {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003257}}
+article .team .team-title p:last-child {
+  font-size: 1.4rem;
+  color: grey;
+  padding-right: 160px;
+  line-height: 2rem;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003257}}
+  article .team .team-title p:last-child {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003257}}
+  article .team .team-title p:last-child {
+    padding-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003270}}
+article .team .team-show {
+  width: 56%;
+  display: flex;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003270}}
+  article .team .team-show {
+    margin: 0 auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003279}}
+article .team .team-show img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003283}}
+article .team .team-show > div {
+  height: 480px;
+  padding: 0;
+  position: relative;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003283}}
+  article .team .team-show > div {
+    height: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003291}}
+article .team .team-show .name {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(34, 34, 34, 0.8);
+  padding: 10%;
+  font-size: 1.6rem;
+  transition: all .5s;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003291}}
+  article .team .team-show .name {
+    font-size: 1rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003305}}
+article .team .team-show .name p:nth-child(2) {
+  font-size: 2rem;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003305}}
+  article .team .team-show .name p:nth-child(2) {
+    font-size: 1rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003310}}
+article .team .team-show .name p:nth-child(2) span {
+  font-size: 1.4rem;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003310}}
+  article .team .team-show .name p:nth-child(2) span {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003318}}
+article .team .team-show .name .name-info {
+  font-size: 1.4rem;
+  line-height: 22px;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  transition: all .5s;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003318}}
+  article .team .team-show .name .name-info {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003335}}
+article .team .team-show .swiper-slide:hover .name {
+  background-color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003338}}
+article .team .team-show .swiper-slide:hover .name-info {
+  height: 110px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003343}}
+article .team .pre-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ababab;
+  cursor: pointer;
+  right: -50px;
+  top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+@media screen and (max-width: 1480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003343}}
+  article .team .pre-button {
+    top: 90px;
+  }
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003343}}
+  article .team .pre-button {
+    right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003361}}
+article .team .pre-button img {
+  width: 30px;
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003366}}
+article .team .next-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #e6e6e6;
+  right: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003366}}
+  article .team .next-button {
+    right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003380}}
+article .team .next-button img {
+  width: 30px;
+  height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003386}}
+article .classify-title {
+  width: 100%;
+  height: auto;
+  padding: 2% 4%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003395}}
+article .classify-title > div:first-child {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003395}}
+  article .classify-title > div:first-child {
+    width: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003401}}
+article .classify-title .classify-title-h1 {
+  font-size: 3.4rem;
+  margin: 0;
+  border-right: 1px solid #666;
+  padding-right: 10%;
+}
+@media screen and (max-width: 1330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003401}}
+  article .classify-title .classify-title-h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003401}}
+  article .classify-title .classify-title-h1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003401}}
+  article .classify-title .classify-title-h1 {
+    border: none;
+    padding-right: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003416}}
+article .classify-title .classify-title-h1 span {
+  display: block;
+  font-size: 1.4rem;
+  color: #e0e0e0;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003416}}
+  article .classify-title .classify-title-h1 span {
+    font-size: 0.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003416}}
+  article .classify-title .classify-title-h1 span {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003429}}
+article .classify-title .classify-info {
+  flex: 1;
+  height: 100%;
+}
+@media screen and (max-width: 1330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003429}}
+  article .classify-title .classify-info {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003435}}
+article .classify-title .classify-info ul {
+  width: 70%;
+  height: 100%;
+  padding: 0;
+  margin: 0 0 0 4%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003443}}
+article .classify-title .classify-info ul li {
+  border: 1px solid #b6b6b6;
+  color: #b6b6b6;
+  padding: 6px 10px;
+  margin-right: 2%;
+  transition: all .4s;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1530px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003443}}
+  article .classify-title .classify-info ul li {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003453}}
+article .classify-title .classify-info ul li:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003465}}
+article .classify-title .more a {
+  text-decoration: none;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003470}}
+article .classify-title .more a span {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003470}}
+  article .classify-title .more a span {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003476}}
+article .classify-title .more a b {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003476}}
+  article .classify-title .more a b {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003488}}
+article .classify-title .more a b img:first-child {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003488}}
+  article .classify-title .more a b img:first-child {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003498}}
+article .classify-title .more a b img:last-child {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(0);
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003498}}
+  article .classify-title .more a b img:last-child {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003510}}
+article .classify-title .more a b:hover {
+  background-color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003512}}
+article .classify-title .more a b:hover img:last-child {
+  transform: scale(1);
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003516}}
+article .classify-title .more a b:hover img:first-child {
+  visibility: hidden;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003525}}
+article .classify-item {
+  width: 100%;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003528}}
+article .classify-item p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003531}}
+article .classify-item > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003537}}
+article .classify-item .pro-normal {
+  width: 24.6%;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003537}}
+  article .classify-item .pro-normal {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003537}}
+  article .classify-item .pro-normal {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003548}}
+article .classify-item .pro-normal div {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003554}}
+article .classify-item .pro-normal div img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003560}}
+article .classify-item .pro-normal div b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003577}}
+article .classify-item .pro-normal div b p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003577}}
+  article .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003577}}
+  article .classify-item .pro-normal div b p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003577}}
+  article .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003589}}
+article .classify-item .pro-normal div b p::after, article .classify-item .pro-normal div b p::before {
+  content: '';
+  width: 14%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 44%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003602}}
+article .classify-item .pro-normal div b p::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003605}}
+article .classify-item .pro-normal div b p::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003611}}
+article .classify-item .pro-normal p {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003611}}
+  article .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003611}}
+  article .classify-item .pro-normal p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003611}}
+  article .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003629}}
+article .classify-item .pro-normal > p:last-child {
+  font-size: 1.4rem;
+  color: #999;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003629}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003629}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003629}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003646}}
+article .classify-item .pro-normal:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003650}}
+article .classify-item .pro-normal:hover > p:nth-child(2) {
+  color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003653}}
+article .classify-item .pro-normal:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003656}}
+article .classify-item .pro-normal:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003659}}
+article .classify-item .pro-normal:hover p::after, article .classify-item .pro-normal:hover p::before {
+  transform: scaleX(0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003664}}
+article .classify-item .big {
+  width: 49.6%;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003664}}
+  article .classify-item .big {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003669}}
+article .classify-item .big div {
+  padding-bottom: 49.6%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/index\/index\.scss}line{font-family:\00003669}}
+  article .classify-item .big div {
+    padding-bottom: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\000031}}
+.banner {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\000036}}
+article {
+  padding: 0 10%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\000036}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000311}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000316}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000320}}
+article .contact {
+  background-color: #fff;
+  padding: 10vh 2vw;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000325}}
+article .contact .contact-title h1 {
+  font-size: 2vw;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000330}}
+article .contact .contact-title p {
+  font-size: 0.8vw;
+  line-height: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000335}}
+article .contact ul {
+  width: 100%;
+  margin-top: 70px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000342}}
+article .contact ul img {
+  width: 36px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000342}}
+  article .contact ul img {
+    width: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000348}}
+article .contact ul li {
+  width: 28%;
+  border: 1px solid #b3b3b3;
+  margin: 6px;
+  padding: 4% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000348}}
+  article .contact ul li {
+    width: 50%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000360}}
+article .contact ul li p {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10%;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000360}}
+  article .contact ul li p {
+    font-size: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000370}}
+article .contact ul li span {
+  font-size: 20px;
+  color: #6e6e6e;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000370}}
+  article .contact ul li span {
+    font-size: 14px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/contact\.scss}line{font-family:\0000379}}
+article .contact .bottom {
+  border-top: 1px solid #e0e0e0;
+  color: #bfbfbf;
+  margin-top: 6%;
+  padding-top: 4%;
+  font-size: 18px;
+}

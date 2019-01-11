@@ -1,0 +1,441 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\000031}}
+footer {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\000035}}
+footer > div:first-child {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\000038}}
+footer > div:last-child {
+  background-color: #262626;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000311}}
+footer .companyInfo {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000311}}
+  footer .companyInfo {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000311}}
+  footer .companyInfo {
+    justify-content: flex-start;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000325}}
+footer .companyInfo h4 {
+  font-size: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  color: #000;
+}
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000325}}
+  footer .companyInfo h4 {
+    font-size: 1.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000335}}
+footer .companyInfo > div:first-child p {
+  font-size: 2.4rem;
+  color: #c5c5c5;
+  margin: 10% 0;
+}
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000335}}
+  footer .companyInfo > div:first-child p {
+    font-size: 1.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000342}}
+footer .companyInfo > div:first-child p:first-child {
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000348}}
+footer .companyInfo > div:nth-child(2) p {
+  font-size: 1.4rem;
+  color: #6e6e6e;
+}
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000348}}
+  footer .companyInfo > div:nth-child(2) p {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000357}}
+footer .companyInfo > div:nth-child(3) div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border: 1px solid #d3d3d3;
+  margin: 0 30px 10px 0;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000357}}
+  footer .companyInfo > div:nth-child(3) div {
+    font-size: 0.6rem;
+    padding: 2px 10px;
+    margin: 0 16px 6px 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000370}}
+footer .companyInfo > div:nth-child(3) div p {
+  margin: 0;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000377}}
+footer .companyInfo > div:last-child img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000383}}
+footer .companyexct {
+  width: 80%;
+  margin: 0 auto;
+  color: #818181;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000388}}
+footer .companyexct > div:first-child {
+  width: 100%;
+  border-bottom: 1px solid #494949;
+  text-align: right;
+  padding: 50px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000393}}
+footer .companyexct > div:first-child a {
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000397}}
+footer .companyexct > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 60px 0;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 1120px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\0000397}}
+  footer .companyexct > div:last-child {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003105}}
+footer .companyexct > div:last-child div {
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003107}}
+footer .companyexct > div:last-child div ul {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003111}}
+footer .companyexct > div:last-child div ul li {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003121}}
+article .link {
+  width: 100%;
+  padding: 2% 4%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 6%;
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003129}}
+article .link p {
+  font-size: 1.8rem;
+  margin: 0;
+  border-right: 1px solid #999;
+  padding-right: 1vw;
+}
+@media screen and (max-width: 1190px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003129}}
+  article .link p {
+    font-size: 1.2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003138}}
+article .link ul {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003144}}
+article .link ul li {
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 30px;
+  color: #6e6e6e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003149}}
+article .link ul li a {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003157}}
+article .dynamic .dynamic-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  margin-bottom: 2%;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003157}}
+  article .dynamic .dynamic-title {
+    font-size: 1.2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003166}}
+article .dynamic .dynamic-title .dynamic-more {
+  background-color: #abacac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003168}}
+article .dynamic .dynamic-title .dynamic-more a {
+  display: block;
+  padding: 6px 14px;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003168}}
+  article .dynamic .dynamic-title .dynamic-more a {
+    font-size: 1.2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003180}}
+article .dynamic .dynamic-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003180}}
+  article .dynamic .dynamic-container {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003187}}
+article .dynamic .dynamic-container .dynamic-detail {
+  width: 30%;
+  padding: 4% 3%;
+  background-color: #fff;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003187}}
+  article .dynamic .dynamic-container .dynamic-detail {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003194}}
+article .dynamic .dynamic-container .dynamic-detail a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003194}}
+  article .dynamic .dynamic-container .dynamic-detail a {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003202}}
+article .dynamic .dynamic-container .dynamic-detail h2 {
+  color: #999;
+  font-size: 2.8rem;
+  margin: 0;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003202}}
+  article .dynamic .dynamic-container .dynamic-detail h2 {
+    font-size: 1.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003210}}
+article .dynamic .dynamic-container .dynamic-detail h4 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 10px 0;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003210}}
+  article .dynamic .dynamic-container .dynamic-detail h4 {
+    font-size: 1.4rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003218}}
+article .dynamic .dynamic-container .dynamic-detail > p {
+  font-size: 1.4rem;
+  color: #6a6a6a;
+  text-indent: 50px;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003218}}
+  article .dynamic .dynamic-container .dynamic-detail > p {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003226}}
+article .dynamic .dynamic-container .dynamic-detail > img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 40px 0;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003226}}
+  article .dynamic .dynamic-container .dynamic-detail > img {
+    width: 50%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003235}}
+article .dynamic .dynamic-container .dynamic-list {
+  width: 67%;
+  border-bottom: 1px solid #d8d8d8;
+}
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003235}}
+  article .dynamic .dynamic-container .dynamic-list {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003241}}
+article .dynamic .dynamic-container .dynamic-list ul {
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 560px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003241}}
+  article .dynamic .dynamic-container .dynamic-list ul {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003250}}
+article .dynamic .dynamic-container .dynamic-list ul li {
+  width: 48%;
+  border-top: 1px solid #d8d8d8;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 560px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003250}}
+  article .dynamic .dynamic-container .dynamic-list ul li {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003261}}
+article .dynamic .dynamic-container .dynamic-list ul li > p {
+  font-size: 2rem;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003261}}
+  article .dynamic .dynamic-container .dynamic-list ul li > p {
+    font-size: 1.2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003267}}
+article .dynamic .dynamic-container .dynamic-list ul li > div {
+  width: 80%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003269}}
+article .dynamic .dynamic-container .dynamic-list ul li > div h4 {
+  font-size: 1.6rem;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003269}}
+  article .dynamic .dynamic-container .dynamic-list ul li > div h4 {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003279}}
+article .dynamic .dynamic-container .dynamic-list ul li > div p {
+  text-indent: 30px;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1220px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003279}}
+  article .dynamic .dynamic-container .dynamic-list ul li > div p {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003287}}
+article .dynamic .dynamic-container .dynamic-list ul li:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003289}}
+article .dynamic .dynamic-container .dynamic-list ul li:hover h4 {
+  color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003298}}
+article .findmore {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003302}}
+article .findmore h5 {
+  font-size: 2vw;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003307}}
+article .findmore ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003307}}
+  article .findmore ul {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003314}}
+article .findmore ul li {
+  width: 33.3%;
+  transition: all .4s;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003314}}
+  article .findmore ul li {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003320}}
+article .findmore ul li a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/footer\.scss}line{font-family:\00003323}}
+article .findmore ul li img {
+  width: 100%;
+  height: auto;
+}

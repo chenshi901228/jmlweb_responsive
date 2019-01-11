@@ -1,0 +1,235 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\000031}}
+.nav1 {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 100px;
+  background-color: #333;
+  z-index: 4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\000038}}
+.nav1 ul {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000314}}
+.nav1 ul .active {
+  background-color: #8F8F8F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000317}}
+.nav1 ul li {
+  height: 50px;
+  margin-right: 6px;
+  transition: all .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000321}}
+.nav1 ul li a {
+  color: #e0e0e0;
+  display: block;
+  min-width: 10vw;
+  height: 100%;
+  font-size: 0.9vw;
+  line-height: 50px;
+  text-align: center;
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000331}}
+.nav1 ul li:hover {
+  background-color: #8F8F8F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000333}}
+.nav1 ul li:hover a {
+  color: #e0e0e0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000340}}
+article {
+  margin-top: 150px;
+  padding: 0 10%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000340}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000346}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000351}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000357}}
+article .about-show .logo img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000362}}
+article .about-show .title {
+  background-color: #fff;
+  text-align: center;
+  padding: 60px 20%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000366}}
+article .about-show .title h1 {
+  font-size: 2vw;
+  color: #333;
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000371}}
+article .about-show .title p {
+  color: #666;
+  line-height: 28px;
+  margin-top: 34px;
+  font-size: 0.8vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000378}}
+article .about-show .about-twopic {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000380}}
+article .about-show .about-twopic img:first-child {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000384}}
+article .about-show .about-twopic img:last-child {
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000391}}
+article .about-show .about-spe {
+  background-color: #fff;
+  padding: 10% 20%;
+  display: flex;
+  justify-content: space-around;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\0000396}}
+article .about-show .about-spe img {
+  width: 20%;
+  height: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003100}}
+article .about-show .about-spe img:nth-child(2n+1) {
+  margin-top: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003103}}
+article .about-show .about-spe img:nth-child(2n) {
+  margin-bottom: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003107}}
+article .about-show .about-idear {
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003107}}
+  article .about-show .about-idear {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003112}}
+article .about-show .about-idear img {
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003116}}
+article .about-show .about-idear img:hover {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003120}}
+article .about-show .about-idear > div {
+  width: 50%;
+  overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003120}}
+  article .about-show .about-idear > div {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003127}}
+article .about-show .about-idear .about-idear-info {
+  background-color: #f7f7f7;
+  padding: 6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003130}}
+article .about-show .about-idear .about-idear-info h1 {
+  font-size: 2vw;
+  color: #666;
+  font-weight: 500;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003135}}
+article .about-show .about-idear .about-idear-info p {
+  line-height: 2.6rem;
+  margin-top: 20px;
+  font-size: 0.9vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003143}}
+article .about-parent {
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 4% 2%;
+  border-bottom: 1px solid #e0e0e0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003148}}
+article .about-parent h1 {
+  font-size: 2vw;
+  margin-bottom: 6%;
+  font-weight: 500;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003154}}
+article .about-parent .swiper-container {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003156}}
+article .about-parent .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003162}}
+article .about-information {
+  background-color: #fff;
+  text-align: center;
+  padding: 4% 2% 6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003166}}
+article .about-information h2 {
+  font-size: 1.2vw;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003170}}
+article .about-information h1 {
+  font-size: 1.6vw;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003175}}
+article .about-information img {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003175}}
+  article .about-information img {
+    width: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/aboutUs\.scss}line{font-family:\00003183}}
+article .about-information p {
+  color: #6e6e6e;
+  line-height: 30px;
+  font-size: 0.9vw;
+}

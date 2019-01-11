@@ -1,0 +1,777 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\000031}}
+.swiper-container {
+  width: 100%;
+  max-height: 500px;
+  top: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\000035}}
+.swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000310}}
+article {
+  margin-top: 100px;
+  padding: 0 10%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000310}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000316}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000321}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000325}}
+article .position {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000328}}
+article .mar-one {
+  background-color: #fff;
+  padding: 4% 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000334}}
+article .mar-one > p {
+  font-size: 0.8vw;
+  padding: 0 2% 2% 2%;
+  text-align: center;
+  line-height: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000340}}
+article .mar-one > h3 {
+  font-size: 1.4vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000343}}
+article .mar-one ul {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000351}}
+article .mar-one ul li h3 {
+  font-size: 1.2vw;
+  color: #333;
+  margin: 34px 0 24px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000356}}
+article .mar-one ul li p {
+  font-size: 0.7vw;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000363}}
+article .introduce {
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000367}}
+article .introduce > div {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000367}}
+  article .introduce > div {
+    width: 100%;
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000375}}
+article .introduce .left-top {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000377}}
+article .introduce .left-top > div {
+  width: 25%;
+  max-height: 200px;
+  padding: 2%;
+  color: #fff;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000388}}
+article .introduce .left-top .left-top1 {
+  background-color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000391}}
+article .introduce .left-top .left-top2 {
+  background-color: #a6a6a6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000394}}
+article .introduce .left-top h1 {
+  margin: 0;
+  font-size: 3.8vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\0000398}}
+article .introduce .left-top p {
+  font-size: 0.8vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003102}}
+article .introduce .left-bottom {
+  width: 100%;
+  max-height: 460px;
+  background-color: #fff;
+  padding: 6% 14%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003107}}
+article .introduce .left-bottom h5 {
+  margin: 0;
+  font-size: 1.6vw;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003111}}
+article .introduce .left-bottom h5 span {
+  display: block;
+  font-size: 0.8vw;
+  color: #adadad;
+  font-style: italic;
+  margin: 6% 0 12% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003119}}
+article .introduce .left-bottom p {
+  font-size: 14px;
+  color: #6e6e6e;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003126}}
+article .introduce .right-top {
+  width: 100%;
+  max-height: 480px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003129}}
+article .introduce .right-top img {
+  width: 100%;
+  max-height: 480px;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003135}}
+article .introduce .right-bottom {
+  max-height: 180px;
+  width: 60%;
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003143}}
+article .introduce .right-bottom img {
+  max-width: 90%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003149}}
+article .top-show {
+  background-color: #fff;
+  padding-top: 60px;
+  /* padding-bottom: 50px; */
+  margin-top: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003154}}
+article .top-show .cooperation {
+  display: flex;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003157}}
+article .top-show .cooperation ul {
+  margin: 0;
+  padding-left: 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003165}}
+article .top-show .cooperation ul li {
+  padding-bottom: 50px;
+  border-bottom: 4px solid #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003169}}
+article .top-show .cooperation ul li:first-child p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003174}}
+article .top-show .cooperation ul li img {
+  width: 100px;
+  height: 70px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003181}}
+article .top-show .top-show-main {
+  overflow: hidden;
+  padding: 2% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003184}}
+article .top-show .top-show-main img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003188}}
+article .top-show .top-show-main img:hover {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003192}}
+article .top-show .top-show-main > div {
+  width: 50%;
+  float: left;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003192}}
+  article .top-show .top-show-main > div {
+    width: 100%;
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003200}}
+article .top-show .top-show-main div {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003203}}
+article .top-show .top-show-main .top-show-left-top {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003205}}
+article .top-show .top-show-main .top-show-left-top > div {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003211}}
+article .top-show .top-show-main .top-show-left-top > div p:first-child {
+  font-size: 1.6vw;
+  color: #333;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003216}}
+article .top-show .top-show-main .top-show-left-top > div p:last-child {
+  font-size: 0.8vw;
+  color: rgba(51, 51, 51, 0.8);
+  margin-top: 18px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003224}}
+article .top-show .top-show-main .top-show-left-bottom {
+  width: 50%;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003227}}
+article .top-show .top-show-main .top-show-left-bottom .top-show-left-bottom1 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-bottom: 4px solid #b41b1d;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  padding-top: 8%;
+  padding-left: 10%;
+  transform: translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003238}}
+article .top-show .top-show-main .top-show-left-bottom .top-show-left-bottom1 p:first-child {
+  margin: 0;
+  font-size: 1.6vw;
+  margin-bottom: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003242}}
+article .top-show .top-show-main .top-show-left-bottom .top-show-left-bottom1 p:first-child span {
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.8);
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003253}}
+article .top-show .top-show-main .top-show-left-bottom .top-show-left-bottom1 p:not(:first-child) {
+  margin-top: 10px;
+  color: rgba(51, 51, 51, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003260}}
+article .top-show .top-show-main .top-show-right > div {
+  position: absolute;
+  width: 80%;
+  height: 100px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  padding: 24px 50px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003272}}
+article .top-show .top-show-main .top-show-right span:first-child {
+  font-size: 1.2vw;
+  color: #333;
+  padding: 2px 20px 2px 0;
+  border-right: 1px solid #d6d6d6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003278}}
+article .top-show .top-show-main .top-show-right span:last-child {
+  margin-left: 19px;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003286}}
+article .serviceProcess {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 24px;
+  text-align: center;
+  padding: 6% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003292}}
+article .serviceProcess h2 {
+  font-size: 1.6vw;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003296}}
+article .serviceProcess p {
+  font-size: 0.8vw;
+  color: #333;
+  padding: 1% 0 4% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003301}}
+article .serviceProcess img {
+  max-width: 84%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003306}}
+article .solution {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 24px;
+  text-align: center;
+  padding-top: 6%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003314}}
+article .solution > h2 {
+  font-size: 1.6vw;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003318}}
+article .solution > p {
+  font-size: 0.8vw;
+  color: #333;
+  padding: 1% 0 4% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003323}}
+article .solution img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003328}}
+article .solution img:hover {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003332}}
+article .solution div {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003335}}
+article .solution > div {
+  width: 50%;
+  max-height: 740px;
+  float: left;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003335}}
+  article .solution > div {
+    width: 100%;
+    float: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003343}}
+article .solution > div p {
+  color: #fff;
+  font-size: 1vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003349}}
+article .solution .solution-left {
+  width: 100%;
+  max-height: 370px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003352}}
+article .solution .solution-left > div {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003358}}
+article .solution .solution-left > div a {
+  display: block;
+  width: 40%;
+  padding: 2%;
+  border: 2px solid #fff;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003371}}
+article .solution .solution-right {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003376}}
+article .solution .solution-right a {
+  display: inline-block;
+  width: 70%;
+  border: 2px solid #fff;
+  padding: 6% 0;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003389}}
+article .classify-title {
+  width: 100%;
+  height: auto;
+  padding: 2% 4%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003398}}
+article .classify-title .classify-title-h1 {
+  font-size: 1.8vw;
+  margin: 0;
+}
+@media screen and (max-width: 1330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003398}}
+  article .classify-title .classify-title-h1 {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003398}}
+  article .classify-title .classify-title-h1 {
+    font-size: 1.4rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003407}}
+article .classify-title .classify-title-h1 span {
+  display: block;
+  font-size: 1.4rem;
+  color: #e0e0e0;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003407}}
+  article .classify-title .classify-title-h1 span {
+    font-size: 0.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003407}}
+  article .classify-title .classify-title-h1 span {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003424}}
+article .classify-title .more a {
+  text-decoration: none;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003429}}
+article .classify-title .more a span {
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003429}}
+  article .classify-title .more a span {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003435}}
+article .classify-title .more a b {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003435}}
+  article .classify-title .more a b {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003447}}
+article .classify-title .more a b img:first-child {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003447}}
+  article .classify-title .more a b img:first-child {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003457}}
+article .classify-title .more a b img:last-child {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(0);
+}
+@media screen and (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003457}}
+  article .classify-title .more a b img:last-child {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003469}}
+article .classify-title .more a b:hover {
+  background-color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003471}}
+article .classify-title .more a b:hover img:last-child {
+  transform: scale(1);
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003475}}
+article .classify-title .more a b:hover img:first-child {
+  visibility: hidden;
+  transition: all .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003484}}
+article .classify {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003484}}
+  article .classify {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003492}}
+article .classify .classify-pic {
+  width: 70%;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003492}}
+  article .classify .classify-pic {
+    width: 100%;
+    padding-bottom: 60%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003501}}
+article .classify .classify-pic img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003507}}
+article .classify .classify-pic b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003523}}
+article .classify .classify-pic b p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003526}}
+article .classify .classify-pic b p::before, article .classify .classify-pic b p::after {
+  content: '';
+  width: 14%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 50%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  transform: translateX(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003540}}
+article .classify .classify-pic b p::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003543}}
+article .classify .classify-pic b p::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003548}}
+article .classify .classify-pic:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003550}}
+article .classify .classify-pic:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003553}}
+article .classify .classify-pic:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003557}}
+article .classify .classify-pic:hover p::before, article .classify .classify-pic:hover p::after {
+  transform: scaleX(0.1);
+  transform-origin: -5% -5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003564}}
+article .classify .classify-info {
+  width: 30%;
+  background-color: #333;
+  padding: 3%;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003564}}
+  article .classify .classify-info {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003572}}
+article .classify .classify-info h3 {
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003580}}
+article .classify .classify-info > p {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003583}}
+article .classify .classify-info > p:first-child {
+  color: #adadad;
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003587}}
+article .classify .classify-info > p:nth-child(3) {
+  font-size: 1.3rem;
+  color: #adadad;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003594}}
+article .classify .classify-info div {
+  margin-top: 20%;
+  width: 150px;
+  background-color: #636363;
+  text-align: center;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003594}}
+  article .classify .classify-info div {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003594}}
+  article .classify .classify-info div {
+    margin-top: 4%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003605}}
+article .classify .classify-info div p {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003605}}
+  article .classify .classify-info div p {
+    line-height: 30px;
+    font-size: 1rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003614}}
+article .classify .classify-info div:hover {
+  cursor: pointer;
+  background-color: #b41b1d;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003622}}
+article .form {
+  background-color: #fff;
+  padding: 20px 60px 40px 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003625}}
+article .form p {
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/marketing\/marketing\.scss}line{font-family:\00003627}}
+article .form p span {
+  display: inline-block;
+  width: 78px;
+  height: 1px;
+  background-color: #b4b4b4;
+  margin-left: 20px;
+}

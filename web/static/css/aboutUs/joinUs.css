@@ -1,0 +1,179 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\000031}}
+.nav1 {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 100px;
+  background-color: #333;
+  z-index: 4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\000038}}
+.nav1 ul {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000314}}
+.nav1 ul .active {
+  background-color: #8F8F8F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000317}}
+.nav1 ul li {
+  height: 50px;
+  margin-right: 6px;
+  transition: all .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000321}}
+.nav1 ul li a {
+  color: #e0e0e0;
+  display: block;
+  min-width: 10vw;
+  height: 100%;
+  font-size: 0.9vw;
+  line-height: 50px;
+  text-align: center;
+  background: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000331}}
+.nav1 ul li:hover {
+  background-color: #8F8F8F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000333}}
+.nav1 ul li:hover a {
+  color: #e0e0e0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000340}}
+article {
+  margin-top: 150px;
+  padding: 0 10%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000340}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000346}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000351}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000355}}
+article .join-banner {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000357}}
+article .join-banner img {
+  width: 100%;
+  min-height: 20vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000361}}
+article .join-banner .join-title {
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  width: 50%;
+  padding: 2%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  transform: translateX(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000372}}
+article .join-banner .join-title h1 {
+  font-size: 1.6vw;
+  margin: 0;
+  padding-bottom: 2%;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000378}}
+article .join-banner .join-title p {
+  font-size: 0.9vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000383}}
+article .join-job {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 2vh 6% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000387}}
+article .join-job .join-job-title {
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 4vh;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\0000396}}
+article .join-job .join-job-title li p:first-child {
+  font-size: 80px;
+  color: #cc0000;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003101}}
+article .join-job .join-job-title li p:first-child span:first-child {
+  font-size: 16px;
+  color: #cc0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003105}}
+article .join-job .join-job-title li p:first-child span:last-child {
+  font-size: 16px;
+  color: #222222;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003111}}
+article .join-job .join-job-title li p:last-child {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003118}}
+article .join-job ol {
+  width: 100%;
+  padding: 3vh 0 7vh;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003118}}
+  article .join-job ol {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003128}}
+article .join-job ol li {
+  width: 50%;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003128}}
+  article .join-job ol li {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003134}}
+article .join-job ol li h3 {
+  font-size: 2.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003137}}
+article .join-job ol li h5 {
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/joinUs\.scss}line{font-family:\00003140}}
+article .join-job ol li p {
+  font-size: 1.4rem;
+}

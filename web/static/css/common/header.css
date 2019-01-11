@@ -1,0 +1,323 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\000034}}
+header {
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .5s;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\000034}}
+  header {
+    padding: 0 2%;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\000034}}
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    justify-content: flex-start;
+    overflow: auto;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000328}}
+header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000328}}
+  header ul {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000335}}
+header ul > li {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000337}}
+header ul > li::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #FF6347;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: all .4s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000348}}
+header ul > li:hover::after {
+  transform: scaleX(1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000352}}
+header ul .active::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #FF6347;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000363}}
+header a {
+  text-decoration: none;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000367}}
+header .collapse {
+  position: fixed;
+  top: 35px;
+  right: 2%;
+  display: none;
+  cursor: pointer;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000374}}
+header .collapse img {
+  width: 30px;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000367}}
+  header .collapse {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000381}}
+header .logo {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000383}}
+header .logo a {
+  display: block;
+  font-size: 0;
+  margin: 25px 0;
+  margin-right: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #c5c5c5;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000383}}
+  header .logo a {
+    border: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000393}}
+header .logo a img {
+  width: 200px;
+  height: 50px;
+  transition: all .4s;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000393}}
+  header .logo a img {
+    width: 150px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\0000393}}
+  header .logo a img {
+    width: 200px;
+    height: 50px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003108}}
+header .left-nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  transition: all .4s;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003108}}
+  header .left-nav {
+    display: none;
+    padding: 0 6% 6%;
+    flex: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003118}}
+header .left-nav a {
+  display: block;
+  font-size: 1.4rem;
+  width: 80px;
+  line-height: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003118}}
+  header .left-nav a {
+    font-size: 1.2rem;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003118}}
+  header .left-nav a {
+    font-size: 1.4rem;
+    width: 130px;
+    line-height: 50px;
+    text-align: left;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003137}}
+header .right-nav {
+  display: flex;
+  align-items: center;
+  transition: all .4s;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003137}}
+  header .right-nav {
+    display: none;
+    padding: 0 6%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003145}}
+header .right-nav p {
+  margin: 0;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: bold;
+  padding-right: 20px;
+  border-right: 1px solid #c5c5c5;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003145}}
+  header .right-nav p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003145}}
+  header .right-nav p {
+    font-size: 1.4rem;
+    border: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003161}}
+header .right-nav p img {
+  width: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003166}}
+header .right-nav p span {
+  font-size: 1.4rem;
+  color: grey;
+  font-weight: normal;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003166}}
+  header .right-nav p span {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003166}}
+  header .right-nav p span {
+    font-size: 1.2rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003178}}
+header .right-nav a {
+  display: block;
+  height: 100px;
+  line-height: 24px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003178}}
+  header .right-nav a {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003178}}
+  header .right-nav a {
+    height: 60px;
+    padding: 0;
+    font-size: 1.4rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003196}}
+header .right-nav a span {
+  font-size: 1.4rem;
+  color: grey;
+}
+@media screen and (max-width: 1580px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003196}}
+  header .right-nav a span {
+    font-size: 1rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003205}}
+header .right-nav ul li:first-child:hover .dropMenu {
+  height: 80px;
+  border: 1px solid #c5c5c5;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003205}}
+  header .right-nav ul li:first-child:hover .dropMenu {
+    border: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003213}}
+header .right-nav ol {
+  padding: 0;
+  position: absolute;
+  width: 130%;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 0;
+  transition: all .4s;
+  overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003213}}
+  header .right-nav ol {
+    position: relative;
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003228}}
+header .right-nav ol li:hover a {
+  color: #FF6347;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003231}}
+header .right-nav ol a {
+  padding: 0;
+  height: auto;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/header\.scss}line{font-family:\00003240}}
+body {
+  background-color: #f3f3f3;
+}

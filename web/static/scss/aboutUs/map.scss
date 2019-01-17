@@ -1,0 +1,28 @@
+article{
+    margin-top: 100px;
+    padding: 0 10%;
+    @media screen and(max-width:480px) {
+        padding: 0 2%;
+    }
+    &>h4{
+        color: #6a6a6a;
+        font-size: 14px;
+        padding: 20px 0;
+        margin: 0;
+        a{
+            color: #6a6a6a;
+        }
+    }
+    &>p:nth-child(2){
+        font-size: 40px;
+        color: #f11320
+    }
+    &>p:nth-child(3){
+        font-size: 26px;
+        color: #5e5e5e
+    }
+    .map{
+        text-align: center;
+        background-color: #fff;
+    }
+}

@@ -10,7 +10,7 @@ function init(i) {
                             <p>查看详情</p>
                         </b>
                     </div>
-                    <p>${item.pro_title.length > 18 ? item.pro_title + "..." : item.pro_title}</p>
+                    <p>${item.pro_title}</p>
                     <p>${item.pro_sort[2]}</p>
                 </div>
                 `
@@ -42,7 +42,7 @@ $(".dynamic-pagination").on("click", "a", function () {
     $(this)[0].style.backgroundColor = "#b41b1d"
     init(i * 7)
 })
-$(".appDevelop").on("click", ".pro-normal", function () {
+$(".classify-item").on("click", ".pro-normal", function () {
     const i = $(this).attr("data-index")
     const t = $(this).attr("data-ify")
     setWebStorage("anli-detail", JSON.stringify(dataInfo[t].content[i]))

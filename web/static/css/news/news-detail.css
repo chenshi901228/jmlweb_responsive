@@ -1,153 +1,165 @@
-
-
-
-body{
-    background-color: rgb(243, 243, 243)
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\000031}}
+article {
+  padding: 0 10%;
+  padding-bottom: 50px;
+  position: relative;
+  top: 100px;
+  z-index: 3;
 }
-
-
-
-article>h4 a:hover{
-    text-decoration: none;
-    color: #6a6a6a;
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\000031}}
+  article {
+    padding: 0 2%;
+  }
 }
-article>h4 a{
-    text-decoration: none;
-    color: #6a6a6a;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000310}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
 }
-article>h4{
-    color: #6a6a6a;
-    font-size: 14px;
-    padding: 20px 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000315}}
+article > h4 a {
+  color: #6a6a6a;
 }
-
-
-article{
-    width: 1500px;
-    margin: 0 auto;
-    /* height: 2000px; */
-    padding: 0;
-    padding-bottom: 50px;
-    background-color: rgb(243, 243, 243)  ;
-    position: relative;
-    top: 100px;
-    z-index: 3;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000319}}
+article .top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
-
-article .top{
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000325}}
+article .top .introduce {
+  width: 68%;
+  padding: 4%;
+  background-color: #fff;
+  overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000325}}
+  article .top .introduce {
     width: 100%;
-    /* height: 350px; */
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+  }
 }
-article .top .introduce{
-    width: 68%;
-    padding: 52px 70px 50px 52px;
-    background-color: #fff;
-    overflow: hidden;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000333}}
+article .top .introduce h4 {
+  font-size: 18px;
+  color: #333;
 }
-article .top .introduce p:nth-child(2){
-    color: #6e6e6e;
-    font-size: 16px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000337}}
+article .top .introduce div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
-article .top .introduce p:nth-child(3){
-    font-size: 14px;
-    line-height: 30px;
-    color: #999;
-    margin-top: 30px;
-    text-indent: 2em;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f1f1f1;
-} 
-article .top .introduce span{
-    font-size: 16px;
-    text-indent: 20px;
-    line-height: 40px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000343}}
+article .top .introduce p:nth-child(2) {
+  color: #6e6e6e;
+  font-size: 16px;
 }
-article .top .introduce img{
-    display: block;
-    width: auto;
-    margin: 40px auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000347}}
+article .top .introduce p:nth-child(3) {
+  font-size: 14px;
+  line-height: 30px;
+  color: #999;
+  margin-top: 30px;
+  text-indent: 2em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f1f1f1;
 }
-article .top .introduce div{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;   
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000356}}
+article .top .introduce a {
+  font-size: 16px;
 }
-
-article .top .experience{
-    width: 30%;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000358}}
+article .top .introduce a:hover {
+  text-decoration: underline;
 }
-article .top .experience div{
-    background-color: #fff;
-    padding: 20px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000362}}
+article .top .introduce span {
+  font-size: 16px;
+  text-indent: 20px;
+  line-height: 40px;
 }
-article .top .experience div>p:first-child{
-    font-size: 18px
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000367}}
+article .top .introduce img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 40px auto;
 }
-article .top .experience div>p:nth-child(2){
-    width: 22px;
-    height: 3px;
-    background-color: #333;
-    margin-top: 20px;
-    margin-bottom: 50px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000374}}
+article .top .experience {
+  width: 30%;
 }
-article .top .experience ul li{
-    font-size: 16px;
-    list-style: disc;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #e0e0e0;
-}
-article .top .experience ul li p:last-child{
-    font-size: 14px;
-    text-indent: 2em;
-    color: #999;
-    margin-top: 20px;
-}
-article .top .experience ul li:hover{
-    cursor: pointer;
-}
-article .top .experience ul li:hover p:first-child{
-    color: #b41b1d;
-}
-article .top .experience img{
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000374}}
+  article .top .experience {
     width: 100%;
     margin-top: 20px;
+  }
 }
-article .top .experience img:hover{
-    cursor: pointer;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000380}}
+article .top .experience div {
+  background-color: #fff;
+  padding: 20px;
 }
-
-
-
-article .link{
-    width: 100%;
-    padding: 24px 40px;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    margin-bottom: 100px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000383}}
+article .top .experience div > p:first-child {
+  font-size: 18px;
 }
-article .link p{
-    font-size: 18px;
-    margin: 0;
-    border-right: 1px solid #999;
-    padding:10px 10px 10px 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000386}}
+article .top .experience div > p:first-child {
+  font-size: 18px;
 }
-article .link ul{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000389}}
+article .top .experience div > p:nth-child(2) {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-article .link li{
-    font-size: 16px;
-    margin-right: 20px;
-    line-height: 30px;
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\0000397}}
+article .top .experience div ul li {
+  font-size: 16px;
+  list-style: disc;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
-article .link a{
-    text-decoration: none;
-    color: #6e6e6e
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003102}}
+article .top .experience div ul li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003109}}
+article .top .experience div ul li:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003111}}
+article .top .experience div ul li:hover p:first-child {
+  color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003115}}
+article .top .experience div ul li p:last-child {
+  font-size: 14px;
+  text-indent: 2em;
+  color: #999;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003124}}
+article .top .experience img {
+  width: 100%;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/news\/news-detail\.scss}line{font-family:\00003127}}
+article .top .experience img:hover {
+  cursor: pointer;
 }

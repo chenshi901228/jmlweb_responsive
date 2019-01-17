@@ -1,0 +1,414 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\000033}}
+.banner {
+  width: 100%;
+  max-height: 400px;
+  margin-top: 100px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\000038}}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000312}}
+.banner div {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000317}}
+.banner div h3 {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000322}}
+article {
+  padding: 0 10%;
+  position: relative;
+  top: 0;
+  z-index: 3;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000322}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000330}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000335}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000339}}
+article .top {
+  width: 100%;
+  /* height: 350px; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000345}}
+article .top .introduce {
+  width: 64%;
+  padding: 2% 4% 0 4%;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000345}}
+  article .top .introduce {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000352}}
+article .top .introduce p:first-child {
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000355}}
+article .top .introduce p:nth-child(2) {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000362}}
+article .top .introduce p:last-child {
+  font-size: 14px;
+  line-height: 30px;
+  color: #333;
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000369}}
+article .top .experience {
+  width: 34%;
+  background-color: #fff;
+  display: flex;
+  padding: 2% 4% 0 4%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000369}}
+  article .top .experience {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000380}}
+article .top .experience .left p:first-child {
+  font-size: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000383}}
+article .top .experience .left p:nth-child(2) {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000390}}
+article .top .experience .left ul {
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000390}}
+  article .top .experience .left ul {
+    padding-left: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\0000395}}
+article .top .experience .left ul li {
+  font-size: 16px;
+  list-style: disc;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003102}}
+article .top .experience .right {
+  margin-top: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003102}}
+  article .top .experience .right {
+    margin-top: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003108}}
+article .top .experience .right img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003114}}
+article .show {
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003120}}
+article .show img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003126}}
+article .bottom {
+  width: 100%;
+  background-color: #fff;
+  padding: 2% 10% 2% 2%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003135}}
+article .bottom div:first-child {
+  border: 1px solid #b9b9b9;
+  text-align: center;
+  padding: 7px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003139}}
+article .bottom div:first-child p {
+  margin: 0;
+  color: rgba(51, 51, 51, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003144}}
+article .bottom div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003147}}
+article .bottom div:last-child a {
+  /* text-decoration: none; */
+  /* color: #000; */
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003154}}
+article .rela-anli {
+  margin-top: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003156}}
+article .rela-anli > h3 {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003159}}
+article .rela-anli > p {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003166}}
+article .rela-anli .classify-item {
+  width: 100%;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003169}}
+article .rela-anli .classify-item p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003172}}
+article .rela-anli .classify-item > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003178}}
+article .rela-anli .classify-item .pro-normal {
+  width: 24.6%;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003178}}
+  article .rela-anli .classify-item .pro-normal {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003178}}
+  article .rela-anli .classify-item .pro-normal {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003189}}
+article .rela-anli .classify-item .pro-normal div {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003195}}
+article .rela-anli .classify-item .pro-normal div img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003201}}
+article .rela-anli .classify-item .pro-normal div b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003218}}
+article .rela-anli .classify-item .pro-normal div b p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003218}}
+  article .rela-anli .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003218}}
+  article .rela-anli .classify-item .pro-normal div b p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003218}}
+  article .rela-anli .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003230}}
+article .rela-anli .classify-item .pro-normal div b p::after, article .rela-anli .classify-item .pro-normal div b p::before {
+  content: '';
+  width: 14%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 44%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003243}}
+article .rela-anli .classify-item .pro-normal div b p::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003246}}
+article .rela-anli .classify-item .pro-normal div b p::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003252}}
+article .rela-anli .classify-item .pro-normal p {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003252}}
+  article .rela-anli .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003252}}
+  article .rela-anli .classify-item .pro-normal p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003252}}
+  article .rela-anli .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003270}}
+article .rela-anli .classify-item .pro-normal > p:last-child {
+  font-size: 1.4rem;
+  color: #999;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003270}}
+  article .rela-anli .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003270}}
+  article .rela-anli .classify-item .pro-normal > p:last-child {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003270}}
+  article .rela-anli .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003287}}
+article .rela-anli .classify-item .pro-normal:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003291}}
+article .rela-anli .classify-item .pro-normal:hover > p:nth-child(2) {
+  color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003294}}
+article .rela-anli .classify-item .pro-normal:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003297}}
+article .rela-anli .classify-item .pro-normal:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003300}}
+article .rela-anli .classify-item .pro-normal:hover p::after, article .rela-anli .classify-item .pro-normal:hover p::before {
+  transform: scaleX(0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003308}}
+article .dynamic > h3 {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003311}}
+article .dynamic > p {
+  width: 22px;
+  height: 3px;
+  background-color: #333;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/anli-detail\/anli-detail\.scss}line{font-family:\00003319}}
+article .dynamic .dynamic-detail img {
+  width: 100%;
+}

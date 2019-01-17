@@ -1,0 +1,50 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\000031}}
+article {
+  padding: 0 10%;
+  position: relative;
+  top: 100px;
+  z-index: 3;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\000031}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\000039}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\0000314}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\0000318}}
+article .title {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\0000322}}
+article .title p {
+  margin: 40px 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\0000326}}
+article .title .title-nav a {
+  display: inline-block;
+  width: 168px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #b41b1d;
+  text-decoration: none;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/appDevelop\/appDevelop-anli\.scss}line{font-family:\0000336}}
+article .title .title-nav a:not(:first-child) {
+  background-color: #737373;
+}

@@ -1,0 +1,689 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\000031}}
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+  transition: all .5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\000035}}
+.swiper-container img {
+  width: 100%;
+  height: 100vh;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000310}}
+header {
+  background-color: transparent;
+  top: auto;
+  bottom: 0;
+  transition: all .5s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000316}}
+.brand-title {
+  display: none;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 2% 14% 3% 14%;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000316}}
+  .brand-title {
+    padding: 2% 2% 3% 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000326}}
+.brand-title > h1 {
+  font-size: 2vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000329}}
+.brand-title > span {
+  font-size: 1.4vw;
+  color: #333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000332}}
+.brand-title > span::after {
+  content: '';
+  width: 16px;
+  height: 2px;
+  background-color: #707070;
+  margin: 20px auto 34px auto;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000341}}
+.brand-title > p {
+  margin: 0 auto;
+  font-size: 0.8vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000345}}
+.brand-title ul {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000351}}
+.brand-title ul li {
+  width: 25%;
+  text-align: left;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000351}}
+  .brand-title ul li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000351}}
+  .brand-title ul li {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000361}}
+.brand-title ul li a {
+  text-decoration: none;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000364}}
+.brand-title ul li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  margin-top: 20px;
+  background-color: #949494;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000375}}
+.brand-title ul li a h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000379}}
+.brand-title ul li a p {
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000386}}
+.brand-title ul li:hover a::after {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000393}}
+article {
+  transition: all .7s;
+  padding: 0 10%;
+  height: 0;
+  overflow: hidden;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\0000393}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003103}}
+article .brand-anli-nav .top {
+  width: 30%;
+  background-color: #2d2d2d;
+  line-height: 74px;
+  color: #fff;
+  padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003103}}
+  article .brand-anli-nav .top {
+    line-height: 50px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003113}}
+article .brand-anli-nav .top p {
+  font-size: 1vw;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003117}}
+article .brand-anli-nav .top::before {
+  content: '';
+  float: left;
+  width: 10px;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 36px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003117}}
+  article .brand-anli-nav .top::before {
+    margin-top: 24px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003130}}
+article .brand-anli-nav .bottom {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003132}}
+article .brand-anli-nav .bottom .left {
+  width: 50%;
+  max-height: 308px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 4% 10% 4% 2%;
+  line-height: 30px;
+  font-size: 1vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003140}}
+article .brand-anli-nav .bottom .left img {
+  width: auto;
+  margin-top: 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003145}}
+article .brand-anli-nav .bottom .right {
+  width: 60%;
+  max-height: 248px;
+  position: absolute;
+  padding: 2%;
+  right: 0;
+  top: 0;
+  background-color: #e9e9e9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003153}}
+article .brand-anli-nav .bottom .right h5 {
+  font-weight: normal;
+  font-size: 1.2vw;
+  margin: 10px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003158}}
+article .brand-anli-nav .bottom .right ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  overflow: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003163}}
+article .brand-anli-nav .bottom .right ul li {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003166}}
+article .brand-anli-nav .bottom .right ul li a {
+  display: block;
+  color: #696969;
+  font-size: 14px;
+  line-height: 26px;
+  padding-right: 20px;
+  border-right: 1px solid #696969;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003179}}
+article .classify {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003179}}
+  article .classify {
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003187}}
+article .classify .classify-pic {
+  width: 70%;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003187}}
+  article .classify .classify-pic {
+    width: 100%;
+    padding-bottom: 60%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003196}}
+article .classify .classify-pic img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003202}}
+article .classify .classify-pic b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003218}}
+article .classify .classify-pic b p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003221}}
+article .classify .classify-pic b p::before, article .classify .classify-pic b p::after {
+  content: '';
+  width: 14%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 50%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  transform: translateX(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003235}}
+article .classify .classify-pic b p::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003238}}
+article .classify .classify-pic b p::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003243}}
+article .classify .classify-pic:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003245}}
+article .classify .classify-pic:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003248}}
+article .classify .classify-pic:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003252}}
+article .classify .classify-pic:hover p::before, article .classify .classify-pic:hover p::after {
+  transform: scaleX(0.1);
+  transform-origin: -5% -5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003259}}
+article .classify .classify-info {
+  width: 30%;
+  background-color: #333;
+  padding: 3%;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003259}}
+  article .classify .classify-info {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003267}}
+article .classify .classify-info h3 {
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003275}}
+article .classify .classify-info > p {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003278}}
+article .classify .classify-info > p:first-child {
+  color: #adadad;
+  font-size: 1.4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003282}}
+article .classify .classify-info > p:nth-child(3) {
+  font-size: 1.3rem;
+  color: #adadad;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003289}}
+article .classify .classify-info a {
+  display: inline-block;
+  font-size: 0;
+  width: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003293}}
+article .classify .classify-info a img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003300}}
+article .classify1 {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003306}}
+article .classify1 .classify1-m {
+  width: 49%;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003306}}
+  article .classify1 .classify1-m {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003312}}
+article .classify1 .classify1-m .classify1-m-pic {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003317}}
+article .classify1 .classify1-m .classify1-m-pic img {
+  width: 100%;
+  height: 80%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003323}}
+article .classify1 .classify1-m .classify1-m-pic b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003338}}
+article .classify1 .classify1-m .classify1-m-pic b::after, article .classify1 .classify1-m .classify1-m-pic b::before {
+  content: '';
+  width: 95px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 50%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  transform: translateX(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003352}}
+article .classify1 .classify1-m .classify1-m-pic b::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003355}}
+article .classify1 .classify1-m .classify1-m-pic b::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003359}}
+article .classify1 .classify1-m .classify1-m-pic:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003361}}
+article .classify1 .classify1-m .classify1-m-pic:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003364}}
+article .classify1 .classify1-m .classify1-m-pic:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003367}}
+article .classify1 .classify1-m .classify1-m-pic:hover b::before, article .classify1 .classify1-m .classify1-m-pic:hover b::after {
+  transform: scaleX(0.1);
+  transform-origin: -5% -5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003373}}
+article .classify1 .classify1-m .title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: #2f2f2f;
+  padding: 4% 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003383}}
+article .classify1 .classify1-m .title p {
+  margin: 0;
+  font-size: 0.8vw;
+  color: #878787;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003388}}
+article .classify1 .classify1-m .title h1 {
+  margin: 10% 0  0 0;
+  font-size: 1.4vw;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003393}}
+article .classify1 .classify1-m .title a {
+  width: 8%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003395}}
+article .classify1 .classify1-m .title a img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003403}}
+article > a {
+  width: 100%;
+  background-color: #2d2d2d;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin: 20px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003412}}
+article .brand-design {
+  width: 100%;
+  padding: 76px 0 68px 0;
+  margin-bottom: 16px;
+  background-color: #fff;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003418}}
+article .brand-design h1 {
+  font-size: 2.6vw;
+  color: #333;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003423}}
+article .brand-design > p:nth-child(2) {
+  font-size: 1vw;
+  margin-top: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003426}}
+article .brand-design > p:nth-child(2)::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  margin: 24px auto;
+  background-color: #aaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003435}}
+article .brand-design > p:last-child {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 38px;
+  padding: 0 2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003441}}
+article .brand-design ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003447}}
+article .brand-design ul li p {
+  font-family: "微软雅黑", "黑体";
+  font-size: 1vw;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003451}}
+article .brand-design ul li img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003457}}
+article > img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003461}}
+article .brand-client {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003466}}
+article .brand-client h1 {
+  font-size: 2.4vw;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003470}}
+article .brand-client img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003474}}
+article .brand-client p {
+  font-size: 1vw;
+  margin-top: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003477}}
+article .brand-client p::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  margin: 24px auto;
+  background-color: #aaa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003487}}
+article .dynamic {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 40px 20px 74px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003493}}
+article .dynamic .dynamic-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003497}}
+article .dynamic .dynamic-title h5 {
+  font-size: 1.8vw;
+  color: #333;
+  font-weight: normal;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003502}}
+article .dynamic .dynamic-title h5::before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 4px;
+  background-color: #717171;
+  float: left;
+  margin-top: 22px;
+  margin-right: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003513}}
+article .dynamic .dynamic-title a {
+  font-size: 0.8vw;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003518}}
+article .dynamic ul {
+  margin-top: 30px;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003523}}
+article .dynamic ul li {
+  width: 31%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003525}}
+article .dynamic ul li > img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003529}}
+article .dynamic ul li .word {
+  border-bottom: 1px solid #8d8d8d;
+  padding-bottom: 20%;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003533}}
+article .dynamic ul li .word h5 {
+  font-size: 1.2vw;
+  color: #3f3f3f;
+  margin: 32px 0 12px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003543}}
+article .dynamic ul li .word p {
+  font-size: 12px;
+  color: #3f3f3f;
+  line-height: 24px;
+  display: block;
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003556}}
+article .dynamic ul li .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003560}}
+article .dynamic ul li .bottom p {
+  font-size: 1vw;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003564}}
+article .dynamic ul li .bottom img {
+  width: 10%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/brand\/brand\.scss}line{font-family:\00003569}}
+article .dynamic ul li:hover {
+  cursor: pointer;
+}

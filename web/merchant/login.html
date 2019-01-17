@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/merchant/login.css">
+</head>
+
+<body>
+    <div id="particles-js">
+        <form>
+            <p>登录</p>
+            <div class="name">
+                <p>用户名</p>
+                <img src="../static/images/icon/name.png" />
+                <input type="text" name="userName" name="userName" class="userName" placeholder="请输入用户名">
+            </div>
+            <div class="password">
+                <p>密码</p>
+                <img src="../static/images/icon/password.png" />
+                <input type="password" name="password" class="pwd" placeholder="请输入密码">
+            </div>
+            <button class="login">登录</button>
+        </form>
+    </div>
+    <script src="../static/js/particles.js"></script>
+    <script src="../static/js/app.js"></script>
+    <script>
+        const inputs = document.querySelectorAll("input")
+        for (let i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener("focus", function () {
+                this.parentElement.classList.add("focus")
+            })
+            inputs[i].addEventListener("blur", function () {
+                this.parentElement.classList.remove("focus")
+            })
+        }
+        document.querySelector(".login").addEventListener("click", (e) => {
+            e.preventDefault()
+            location.href = "../index.html"
+        })
+    </script>
+</body>
+
+</html>

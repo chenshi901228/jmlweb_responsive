@@ -108,7 +108,7 @@ $(".dynamic-list").on("click", "li", function () {
     setWebStorage("news-detail", JSON.stringify(dataInfo[t][i]))
     location.href = "./news-detail.html"
 })
-$(".appDevelop").on("click", ".pro-normal", function () {
+$(".classify-item").on("click", ".pro-normal", function () {
     const i = $(this).attr("data-index")
     const t = $(this).attr("data-ify")
     setWebStorage("anli-detail", JSON.stringify(dataInfo[t].content[i]))

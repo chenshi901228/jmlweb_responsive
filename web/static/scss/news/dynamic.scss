@@ -204,27 +204,4 @@ article{
             }
         }
     }
-    .dynamic-pagination{
-        margin-top: 40px;
-        ul{
-            padding-left: 0;
-            display: flex;
-            justify-content: center;
-            li{
-                margin-right: 4px;
-                a{
-                    display: block;
-                    width: 40px;
-                    text-align: center;
-                    font-size: 14px;
-                    color: #000;
-                    line-height: 40px;
-                    @media screen and (max-width:480px) {
-                        width: 30px;
-                        line-height: 30px;
-                    }
-                }
-            }
-        }
-    }
 }

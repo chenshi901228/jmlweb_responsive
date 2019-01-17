@@ -1,0 +1,37 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\000031}}
+article {
+  margin-top: 100px;
+  padding: 0 10%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\000031}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\000037}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\0000312}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\0000316}}
+article > p:nth-child(2) {
+  font-size: 40px;
+  color: #f11320;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\0000320}}
+article > p:nth-child(3) {
+  font-size: 26px;
+  color: #5e5e5e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/aboutUs\/map\.scss}line{font-family:\0000324}}
+article .map {
+  text-align: center;
+  background-color: #fff;
+}

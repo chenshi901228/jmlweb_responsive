@@ -33,8 +33,8 @@ $(function () {
         dataInfo[c].slice(0, 6).map(item => {
             return `
                     <li data-index=${item.id} data-ify=${c}>
-                        <p>${item.news_title.length > 18 ? item.news_title.slice(0, 18) + "..." : item.news_title}</p>
-                        <p>${item.news_info_top.length > 16 ? item.news_info_top.slice(0, 16) + "..." : item.news_info_title}</p>
+                        <p>${item.news_title}</p>
+                        <p>${item.news_info_top}</p>
                     </li>
                 `
         }).join("")

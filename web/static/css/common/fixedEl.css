@@ -62,17 +62,18 @@
   border-radius: 3px;
   box-shadow: 0px 2px 5px 0px rgba(161, 163, 175, 0.11);
   display: none;
+  font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000354}}
 .fixedEl ul li .show-message a {
   display: block;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000357}}
 .fixedEl ul li .show-message a:hover {
   color: tomato;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000361}}
 .fixedEl ul li .show-message::before, .fixedEl ul li .show-message::after {
   border: solid transparent;
   content: '';
@@ -81,18 +82,18 @@
   position: absolute;
   width: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000369}}
 .fixedEl ul li .show-message::after {
   border-width: 10px;
   border-left-color: #fff;
   top: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000380}}
 .dynamic-pagination ul li:first-child {
   background-color: #b41b1d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000382}}
 .dynamic-pagination ul li:first-child a {
   color: #fff;
 }
@@ -108,7 +109,7 @@
     bottom: 10%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\0000396}}
 .thirdParty {
   position: fixed;
   left: 20px;
@@ -116,22 +117,22 @@
   z-index: 6;
   animation: animatethird 2s ease-out infinite;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003102}}
 .thirdParty div {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003104}}
 .thirdParty div .t-bgm {
   width: 200px;
   transition: all .4s;
 }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003104}}
   .thirdParty div .t-bgm {
     width: 100px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003111}}
 .thirdParty div .t-close {
   width: 30px;
   position: absolute;
@@ -141,16 +142,16 @@
   transition: all .4s;
 }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003111}}
   .thirdParty div .t-close {
     width: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003121}}
 .thirdParty div .t-close:hover {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003125}}
 .thirdParty div b {
   font-size: 1.8rem;
   position: absolute;
@@ -161,12 +162,43 @@
   transition: all .4s;
 }
 @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003125}}
   .thirdParty div b {
     font-size: 0.8rem;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003136}}
 .thirdParty div b:hover {
   cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003142}}
+.merchant {
+  position: fixed;
+  top: 50px;
+  right: 2%;
+  z-index: 55;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003142}}
+  .merchant {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003142}}
+  .merchant {
+    display: none;
+    position: static;
+    flex-direction: column;
+    padding: 0 6%;
+    margin-top: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/fixedEl\.scss}line{font-family:\00003157}}
+.merchant a {
+  font-size: 14px;
+  color: #666;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }

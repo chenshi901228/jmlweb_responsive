@@ -1,0 +1,290 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\000031}}
+article {
+  padding: 0 10%;
+  position: relative;
+  top: 100px;
+  z-index: 3;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\000031}}
+  article {
+    padding: 0 2%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\000039}}
+article > h4 {
+  color: #6a6a6a;
+  font-size: 14px;
+  padding: 20px 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000314}}
+article > h4 a {
+  color: #6a6a6a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000318}}
+article .title {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000322}}
+article .title p {
+  margin: 40px 0 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000326}}
+article .title .title-nav a {
+  display: inline-block;
+  width: 168px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #b41b1d;
+  text-decoration: none;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000336}}
+article .title .title-nav a:not(:first-child) {
+  background-color: #737373;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000342}}
+article .classify-item {
+  width: 100%;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000345}}
+article .classify-item p {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000348}}
+article .classify-item > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000354}}
+article .classify-item .pro-normal {
+  width: 24.6%;
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000354}}
+  article .classify-item .pro-normal {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000354}}
+  article .classify-item .pro-normal {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000365}}
+article .classify-item .pro-normal div {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000371}}
+article .classify-item .pro-normal div img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000377}}
+article .classify-item .pro-normal div b {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000394}}
+article .classify-item .pro-normal div b p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000394}}
+  article .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000394}}
+  article .classify-item .pro-normal div b p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\0000394}}
+  article .classify-item .pro-normal div b p {
+    font-size: 0.6rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003106}}
+article .classify-item .pro-normal div b p::after, article .classify-item .pro-normal div b p::before {
+  content: '';
+  width: 14%;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 2px 0;
+  position: absolute;
+  left: 44%;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003119}}
+article .classify-item .pro-normal div b p::before {
+  top: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003122}}
+article .classify-item .pro-normal div b p::after {
+  bottom: 46%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003128}}
+article .classify-item .pro-normal p {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003128}}
+  article .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003128}}
+  article .classify-item .pro-normal p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003128}}
+  article .classify-item .pro-normal p {
+    font-size: 0.8rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003146}}
+article .classify-item .pro-normal > p:last-child {
+  font-size: 1.4rem;
+  color: #999;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003146}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003146}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003146}}
+  article .classify-item .pro-normal > p:last-child {
+    font-size: 0.4rem;
+    margin-top: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003163}}
+article .classify-item .pro-normal:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003167}}
+article .classify-item .pro-normal:hover > p:nth-child(2) {
+  color: #b41b1d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003170}}
+article .classify-item .pro-normal:hover b {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003173}}
+article .classify-item .pro-normal:hover img {
+  transform: scale(1.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003176}}
+article .classify-item .pro-normal:hover p::after, article .classify-item .pro-normal:hover p::before {
+  transform: scaleX(0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003181}}
+article .classify-item .big {
+  width: 49.6%;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003181}}
+  article .classify-item .big {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003186}}
+article .classify-item .big div {
+  padding-bottom: 49.6%;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003186}}
+  article .classify-item .big div {
+    padding-bottom: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003194}}
+article .dynamic-pagination {
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003196}}
+article .dynamic-pagination ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003200}}
+article .dynamic-pagination ul li {
+  margin-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003202}}
+article .dynamic-pagination ul li a {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  line-height: 40px;
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/common\/anli-item\.scss}line{font-family:\00003202}}
+  article .dynamic-pagination ul li a {
+    width: 30px;
+    line-height: 30px;
+  }
+}

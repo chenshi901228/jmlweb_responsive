@@ -547,14 +547,16 @@ $("header").on("click", ".collapse", function () {
         $("header")[0].style.height = 100 + "px"
         $("header .left-nav").hide()
         $("header .right-nav").hide()
+        $("header .merchant").hide()
     } else {
         $(this).data("act", "open")
         $("header")[0].style.height = 100 + "vh"
         $("header .left-nav").show()
         $("header .right-nav").show()
+        $("header .merchant")[0].style.display = "flex"
     }
 })
-
+// 窗口改变重置头部导航状态
 $(window).resize(function () {
     let W = $(window).width()
     if (W > 992) {
@@ -562,5 +564,6 @@ $(window).resize(function () {
         $("header")[0].style.height = 100 + "px"
         $("header .left-nav").removeAttr("style")
         $("header .right-nav").removeAttr("style")
+        $("header .merchant").removeAttr("style")
     }
 });

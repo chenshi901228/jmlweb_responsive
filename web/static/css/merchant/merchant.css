@@ -1,0 +1,369 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\000031}}
+* {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\000034}}
+body {
+  background-color: #f3f3f3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\000037}}
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 20%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000318}}
+nav > a {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000320}}
+nav > a img {
+  width: 150px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000325}}
+nav ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000327}}
+nav ul .active a {
+  color: #FF6347;
+  border-bottom: 2px solid #FF6347;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000337}}
+nav ul li a {
+  display: block;
+  line-height: 80px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000347}}
+nav ul li a:hover {
+  color: #FF6347;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000354}}
+.banner {
+  margin-top: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000356}}
+.banner img {
+  width: 100%;
+  max-height: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000361}}
+article {
+  width: 66%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000361}}
+  article {
+    width: 90%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000367}}
+article .example {
+  text-align: center;
+  margin-top: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000370}}
+article .example h3 {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000372}}
+article .example h3 img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000372}}
+  article .example h3 img {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000377}}
+article .example h3 img:first-child {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000380}}
+article .example h3 img:last-child {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000385}}
+article .example h4 {
+  font-size: 16px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\0000389}}
+article .example a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  height: 50px;
+  background-color: #d8374d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0 7px 0 #b32c3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003103}}
+article .example .swiper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003109}}
+article .example .swiper .btn {
+  background-color: #666;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003113}}
+article .example .swiper .btn:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003116}}
+article .example .swiper .btn img {
+  width: 40px;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003121}}
+article .example .swiper .content {
+  width: 100%;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003128}}
+article .example .swiper .content li {
+  width: 28%;
+  min-height: 440px;
+  padding: 20px;
+  border: 2px solid #FF6347;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003128}}
+  article .example .swiper .content li {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003128}}
+  article .example .swiper .content li {
+    width: 80%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003142}}
+article .example .swiper .content li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #b32c3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003148}}
+article .example .swiper .content li p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+  margin: 20px 0 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003154}}
+article .example .swiper .content li p:last-child {
+  font-size: 16px;
+  color: #999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003160}}
+article .example .swiper .pagetion {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003169}}
+article .example .swiper .pagetion li {
+  width: 10px;
+  height: 10px;
+  background-color: #666;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003176}}
+article .example .swiper .pagetion .active {
+  background-color: #FF6347;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003182}}
+article .whychoose {
+  text-align: center;
+  margin-top: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003185}}
+article .whychoose h3 {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003187}}
+article .whychoose h3 img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003187}}
+  article .whychoose h3 img {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003192}}
+article .whychoose h3 img:first-child {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003195}}
+article .whychoose h3 img:last-child {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003200}}
+article .whychoose h4 {
+  font-size: 16px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003204}}
+article .whychoose a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  height: 50px;
+  background-color: #d8374d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0 7px 0 #b32c3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003218}}
+article .whychoose .list {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003224}}
+article .whychoose .list li {
+  width: 28%;
+  box-shadow: 0px 0px 30px #e6e6e6;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all .5;
+}
+@media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003224}}
+  article .whychoose .list li {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003224}}
+  article .whychoose .list li {
+    width: 80%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003237}}
+article .whychoose .list li img {
+  width: 100%;
+  height: 150px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003241}}
+article .whychoose .list li p:nth-child(2) {
+  font-size: 1vw;
+  margin: 10% 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003245}}
+article .whychoose .list li p:last-child {
+  font-size: 0.8vw;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003252}}
+article .other {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003256}}
+article .other h3 {
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003258}}
+article .other h3 img {
+  vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003258}}
+  article .other h3 img {
+    display: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003263}}
+article .other h3 img:first-child {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003266}}
+article .other h3 img:last-child {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003271}}
+article .other h4 {
+  font-size: 16px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003275}}
+article .other a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+  height: 50px;
+  background-color: #d8374d;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0 7px 0 #b32c3e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/csTest\/htmlDemo\/web\/static\/scss\/merchant\/merchant\.scss}line{font-family:\00003289}}
+article .other > img {
+  width: 100%;
+  margin: 40px 0;
+}
